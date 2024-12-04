@@ -12,6 +12,13 @@
       <Content Include="01\Locations.input">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
+      <None Remove="02\Reports.input" />
+      <Content Include="02\Reports.input">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Update="02\ExampleReports.input">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 
 </Project>
